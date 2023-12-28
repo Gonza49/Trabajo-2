@@ -15,10 +15,7 @@ const juegoAdivinanza = () => {
 
     while (numeroAdivinado !== numeroSecreto) {
         
-        const numeroSecreto = generarNumeroAleatorio();
-        
-        numeroAdivinado = obtenerNumeroUsuario(); 
-
+        numeroAdivinado = obtenerNumeroUsuario();
         verificarAdivinanza(numeroSecreto,numeroAdivinado);
     }
 
